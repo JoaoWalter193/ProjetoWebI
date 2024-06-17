@@ -1,0 +1,138 @@
+body{
+    font-family: Arial;
+}
+a{
+    color: black;
+}
+
+.header {
+    background-color: #D9D9D9;
+    position: fixed;
+    width: 100%;
+    right: 0px;
+    top: 0px;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 80;
+  }
+
+.voltar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    right: 35%; 
+}
+
+.voltar i {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 5px;
+}
+
+#botao_voltar{
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    padding-left: 25px;
+}
+
+#botao_voltar:hover{
+    background-color:#f9f1f1;
+    cursor: pointer;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    gap: 2px;
+    transform: translate(-50%,-50%);
+    top: 23%;
+    left: 80%;
+    height: 25px;
+    padding: 5px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+}
+.pesquisa input {
+    border-color: black;
+    border-radius: 50px;
+    outline: none;
+}
+.pesquisa button {
+    border-radius: 50px;
+    height: 25px;
+}
+.pesquisa button:hover{
+    cursor: pointer;
+    background-color: #949494d9;
+}
+.tabela{
+  max-height: 100px;
+  overflow-y: auto;
+  border: 1px solid #D9D9D9D9;
+  position: absolute;
+  transform:translateX(-50%);
+  top: 30%;
+  left: 50%;  
+  outline: auto;
+  outline-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.5);
+}
+thead{
+    background-color: #949494d9;
+}
+
+td {
+    background-color: rgba(217, 217, 217, 100);
+    padding: 5px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.lapis{
+    background-color: #f9f9f9;
+    padding: 3px;
+    max-width: fit-content;
+    outline: auto;
+    margin-right: 3px;
+}
+
+.lixo{
+    background-color: rgb(224, 8, 8);
+    padding: 3px;
+    max-width: fit-content;
+    outline: auto;
+    margin-left: 3px;
+
+}
+.lixo i {
+    cursor: pointer;
+}
+
+.cnfExcluir {
+    display: none; /* Inicialmente oculta */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}

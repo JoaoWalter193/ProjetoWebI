@@ -1,0 +1,103 @@
+  /*fonte usada */
+  @font-face{
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+body {
+    font-family: JetBrainsMono;
+    font-size: 20px;
+    background-color: #F8A01C;
+}
+
+
+button:hover{
+    background-color: chocolate;
+}
+
+
+input{
+    outline: none;
+    padding: 1%;
+    font-size: 150%;
+    background-color: #d9d9d9;
+    width: 100%;
+}
+
+
+.logo{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 13%;
+    left: 52%;
+    width: 30%;
+}
+
+
+.tela-admin {
+    outline: auto;
+    outline-offset: 10%;
+    background-color: white;
+    position:absolute;
+    width: 25%;
+    height: 55%;
+    border-radius: 100px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3%;
+}
+
+
+.admin{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    text-align: center;
+}
+
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.senha{
+    display: flex;
+    flex-direction: column;
+     
+    
+}
+
+
+.usuario_senha{
+    margin-top: 22%;
+}
+
+
+.cadastro{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 70%;
+    left:50%;
+    font-size: 15px;
+}
+
+
+.botao {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 50%;
+    width: 45%;
+    height: 10%;
+    border-radius: 100px;
+    background-color: #F8A01C;
+    
+}

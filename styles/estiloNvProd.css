@@ -1,0 +1,112 @@
+:root {
+    --background-color: #D9D9D9;
+    --button-hover-color: #f9f1f1;
+    --submit-background-color: #F8A01C;
+    --submit-hover-color: chocolate;
+    --font-family: Arial, sans-serif;
+    --input-padding: 10px;
+    --input-margin-bottom: 20px;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.header {
+    background-color: var(--background-color);
+    position: fixed;
+    width: 100%;
+    right: 0px;
+    top: 0px;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 80;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.voltar {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.voltar i {
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#botao_voltar {
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#botao_voltar:hover {
+    background-color: var(--button-hover-color);
+}
+
+.box {
+    background-color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    padding: 1%;
+    height: 70%;
+    width: 25%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputs {
+    margin-bottom: var(--input-margin-bottom);
+}
+
+#descricao {
+    background-color: var(--background-color);
+    font-size: 120%;
+    padding: var(--input-padding);
+    outline: none;
+    width: 100%;
+    resize: vertical; /* Permite que o usuário redimensione verticalmente */
+}
+
+#enviar {
+    font-family: JetBrainsMono;
+    font-size: 150%;
+    width: 45%;
+    height: 10%;
+    border-radius: 100px;
+    background-color: var(--submit-background-color);
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#enviar:hover {
+    background-color: var(--submit-hover-color);
+}
+
+.inputUser {
+    background-color: var(--background-color);
+    outline: none;
+    font-size: 150%;
+    width: 100%;
+    padding: var(--input-padding);
+    margin-bottom: var(--input-margin-bottom);
+}

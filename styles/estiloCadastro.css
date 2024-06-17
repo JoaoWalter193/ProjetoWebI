@@ -1,0 +1,101 @@
+@font-face{
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+body {
+  font-family: JetBrainsMono;
+  background-color:  #F8A01C;
+}
+
+
+
+.logo {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 30%;
+  top: 50%;
+  width: 70rem;
+  opacity: 30%;
+  
+}
+
+
+.titulo {
+  text-align: center;
+  font-size: 200%;
+  margin-top: -1%;
+}
+
+
+.box {
+  background-color: white;
+  outline: auto;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 75rem;
+  border-radius: 5%;
+  padding: 1%;
+  height: 40rem;
+  width: 35rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.inputs {
+  position: relative;
+  margin-top: 10px;
+}
+
+
+#dataNascimento{
+  position: relative;
+  background-color: #D9D9D9;
+  font-size: 120%;
+  padding: 1%;
+  outline: none;
+  width: 99%;
+}
+
+
+#enviar{
+  font-family: JetBrainsMono;
+  font-size: 150%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 90%;
+  width: 45%;
+  height: 10%;
+  border-radius: 100px;
+  background-color: #F8A01C;
+}
+
+#enviar:hover{
+  background-color: chocolate;
+}
+
+
+.inputUser{
+  background-color: #D9D9D9;
+  outline: none;
+  font-size: 150%;
+  width: 100%;
+  
+}
+
+span{
+  color: red; 
+  display:none;
+}

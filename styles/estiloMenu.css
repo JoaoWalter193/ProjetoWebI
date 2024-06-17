@@ -1,0 +1,145 @@
+@font-face{
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    font-family: JetBrainsMono;
+    background-color: #F8A01C;
+}
+
+.header{
+    background-color: #FFCB11;
+    position: fixed;
+    width: 100%;
+    right: 0px;
+    top: 0px;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img_header{
+    position: absolute;
+    top: -10%;
+    left: -1%;
+    width: 20%;
+    height: 120%;
+}
+#logo{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    position: relative;
+    left: 10%;
+}
+
+
+.conta{
+    position: relative;
+    left: 22%;
+}
+.conta input {
+    font-size: 20px;
+    padding-left:10px;
+    padding-right:0px ;
+    width: 150%;
+    height: 55px;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+}
+.conta i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.conta input:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+.produto{
+    background-color: white;
+    outline: auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 50%;
+    width: 50rem;
+    height: 30rem;
+}
+.imagem-prod{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 45%;
+    height: 45%;
+    outline: auto;
+}
+
+#imagem_prod{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.dados {
+    font-size:135% ;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+}
+
+.descricao{
+    margin-left: 2%;
+    margin-top:1%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    position: absolute;
+    top: 50%;
+}
+
+
+.comprar{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 90%;
+    left: 50%;
+    border-radius: 50px;
+}
+#botao_compra {
+    font-size: 20px;
+    position: absolute;
+    background-color:#F8A01C;
+    border-radius:50px ;
+    width: 100%;
+    height: 75%;
+    transition: background-color 0.3s ease;
+}
+#botao_compra:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
